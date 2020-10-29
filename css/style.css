@@ -69,3 +69,16 @@ h2 {
 .flag {
   display: inline-block;
 }
+.austria-flag::before {
+  content: "Austria";
+}
+.belgium-flag::before {
+  content: "Belgium";
+  color: white;
+}
+.benin-bg::before {
+  content: "Benin";
+}
+.buddihsm::before {
+  content: "Buddihsm";
+}
