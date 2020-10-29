@@ -1,0 +1,71 @@
+body {
+  height: 100vh;
+  margin: 50px 500px;
+  background: radial-gradient(
+    farthest-corner at 40px 40px,
+    white 0%,
+    pink 25%,
+    rgba(255, 0, 255, 0.439) 50%,
+    magenta 100%
+  );
+}
+h1,
+h2 {
+  text-align: center;
+}
+.flag-box {
+  width: 300px;
+  height: 200px;
+  border: solid 2px black;
+  margin: 50px;
+}
+h2 {
+  margin: 50px;
+}
+.austria-flag {
+  background: linear-gradient(to top, red 33.3%, white 33.3% 66.6%, red 66.6%);
+}
+.belgium-flag {
+  background: linear-gradient(
+    to right,
+    black 33.3%,
+    yellow 33.3% 66.6%,
+    red 66.6%
+  );
+}
+
+.benin-bg {
+  background-color: green;
+}
+.benin-flag {
+  background: linear-gradient(to top, red 50%, yellow 50% 100%);
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+.buddihsm {
+  background: linear-gradient(
+    to right,
+    blue 16.66%,
+    yellow 16.66% 33.32%,
+    red 33.32% 49.98%,
+    white 49.98% 66.64%,
+    orange 66.64% 83.3%
+  );
+}
+.buddihsm-right {
+  width: 50px;
+  height: 200px;
+  background: linear-gradient(
+    to top,
+    orange 20%,
+    white 20% 40%,
+    red 40% 60%,
+    yellow 60% 80%,
+    blue 80% 100%
+  );
+  float: right;
+}
+.flag {
+  display: inline-block;
+}
